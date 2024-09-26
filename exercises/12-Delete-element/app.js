@@ -1,6 +1,13 @@
 let people = ['juan','ana','michelle','daniella','stefany','lucy','barak', 'emilio'];
 
-// Your code below
+function deletePerson(name) {
+    let filteredPeople = people.filter
+    (function(person){
+        return (person != name)
+    });
+    return filteredPeople
+    
+}
 
 console.log(deletePerson('daniella'));
 console.log(deletePerson('juan'));
