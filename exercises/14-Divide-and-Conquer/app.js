@@ -4,7 +4,7 @@ function mergeTwoList(arrayOfNumbers) {
     let odd = [];
     let even = [];
 
-    for (let i = 0; i < arrayOfNumbers; i++){
+    for (let i = 0; i < arrayOfNumbers.length; i++){
         if (arrayOfNumbers[i] % 2 === 0) {
             even.push(arrayOfNumbers[i]);
         }
@@ -16,3 +16,4 @@ function mergeTwoList(arrayOfNumbers) {
 }
 
 console.log(mergeTwoList([1,2,33,10,20,4]));
+
